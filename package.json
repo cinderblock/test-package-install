@@ -1,0 +1,46 @@
+{
+  "name": "test-package-install",
+  "version": "0.0.0",
+  "scripts": {
+    "install": "echo install; echo install >> scripts.log",
+    "preinstall": "echo preinstall; echo preinstall >> scripts.log",
+    "postinstall": "echo postinstall; echo postinstall >> scripts.log",
+
+    "uninstall": "echo uninstall; echo uninstall >> scripts.log",
+    "preuninstall": "echo preuninstall; echo preuninstall >> scripts.log",
+    "postuninstall": "echo postuninstall; echo postuninstall >> scripts.log",
+
+    "pack": "echo pack; echo pack >> scripts.log",
+    "prepack": "echo prepack; echo prepack >> scripts.log",
+    "postpack": "echo postpack; echo postpack >> scripts.log",
+
+    "prepare": "echo prepare; echo prepare >> scripts.log",
+    "prepublishOnly": "echo prepublishOnly; echo prepublishOnly >> scripts.log",
+
+    "publish": "echo publish; echo publish >> scripts.log",
+    "prepublish": "echo prepublish; echo prepublish >> scripts.log",
+    "postpublish": "echo postpublish; echo postpublish >> scripts.log",
+
+    "version": "echo version; echo version >> scripts.log",
+    "preversion": "echo preversion; echo preversion >> scripts.log",
+    "postversion": "echo postversion; echo postversion >> scripts.log",
+    
+    "precompress": "echo precompress; echo precompress >> scripts.log",
+    "compress": "echo compress; echo compress >> scripts.log",
+    "postcompress": "echo postcompress; echo postcompress >> scripts.log",
+
+    "test": "echo test; echo test >> scripts.log",
+    "pretest": "echo pretest; echo pretest >> scripts.log",
+    "posttest": "echo posttest; echo posttest >> scripts.log",
+
+    "start": "echo start; echo start >> scripts.log",
+    "prestart": "echo prestart; echo prestart >> scripts.log",
+    "poststart": "echo poststart; echo poststart >> scripts.log",
+
+    "stop": "echo stop; echo stop >> scripts.log",
+    "prestop": "echo prestop; echo prestop >> scripts.log",
+    "poststop": "echo poststop; echo poststop >> scripts.log",
+
+    "__": "dummy"
+  }
+}
